@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Spotify - Web Player: Music for everyone</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="utility.css" />
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="nav">
+				<ul>
+					<li><img src="logo.svg" class="invert" alt="Spotify Logo" /></li>
+					<li>
+						<button class="home">
+							<img
+								src="home.svg"
+								class="invert"
+								width="20"
+								height="20"
+								alt="Home"
+							/>
+						</button>
+					</li>
+					<li>
+						<div class="boxnav">
+							<button
+								style="background: transparent; border: none; outline: none"
+							>
+								<img
+									src="search.svg"
+									class="invert"
+									width="25"
+									height="25"
+									alt="Search"
+								/>
+							</button>
+							<div class="searchbox">
+								<input type="text" placeholder="What do you want to play" />
+							</div>
+							<span>|</span>
+							<img
+								src="browser.svg"
+								class="invert"
+								width="25"
+								height="25"
+								alt="Browse"
+							/>
+						</div>
+					</li>
+					<li>Premium</li>
+					<li>Support</li>
+					<li>Download</li>
+					<li style="display: flex; align-items: center; gap: 8px">
+						<img
+							src="download.svg"
+							class="invert"
+							width="24"
+							height="24"
+							alt="Download"
+						/>
+						<span>Install App</span>
+					</li>
+					<li>Sign up</li>
+					<li>
+						<button
+							style="
+								border-radius: 20px;
+								justify-content: center;
+								align-items: center;
+								margin: 10px;
+								padding: 10px;
+								width: 90px;
+							"
+						>
+							Log in
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container flex">
+			<div class="left m-1">
+				<div class="library">
+					<div class="heading">
+						<h2 style="margin-left: 10px; margin-top: 10px">Your Library</h2>
+					</div>
+					<div class="songlist ">
+						<ul></ul>
+					</div>
+
+					<div class="footer-container">
+						<div class="footer">
+							<div>
+								<a href="#"><span>Legal</span></a>
+							</div>
+							<div>
+								<a href="#"><span>Privacy Center</span></a>
+							</div>
+							<div>
+								<a href="#"><span>Privacy Policy</span></a>
+							</div>
+							<div>
+								<a href="#"><span>Cookies</span></a>
+							</div>
+							<div>
+								<a href="#"><span>About Ads</span></a>
+							</div>
+							<div>
+								<a href="#"><span>Accessibility</span></a>
+							</div>
+						</div>
+
+						<div class="language-button">
+							<span>🌐 English</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="right">
+				<div class="spotifyplaylist ">
+					<h1>Trending Songs</h1>
+					<div class="cardContainer">
+						<!-- Repeat cards -->
+						<div class="card ">
+							<div class="play">
+								<button><img src="playgreen.svg" alt="Play" /></button>
+							</div>
+							<img src="nasha.spotify.jpeg" alt="Playlist cover" />
+							<h2>Happy Hits</h2>
+							<p>By Spotify</p>
+						</div>
+
+						<!-- You had repeated the same card many times. Below are just additional duplicates. -->
+						<div class="card">
+							<div class="play">
+								<button><img src="playgreen.svg" alt="Play" /></button>
+							</div>
+							<img src="nasha.spotify.jpeg" alt="Playlist cover" />
+							<h2>Happy Hits</h2>
+							<p>By Spotify</p>
+						</div>
+
+						<div class="card">
+							<div class="play">
+								<button><img src="playgreen.svg" alt="Play" /></button>
+							</div>
+							<img src="nasha.spotify.jpeg" alt="Playlist cover" />
+							<h2>Happy Hits</h2>
+							<p>By Spotify</p>
+						</div>
+
+						<div class="card">
+							<div class="play">
+								<button><img src="playgreen.svg" alt="Play" /></button>
+							</div>
+							<img src="nasha.spotify.jpeg" alt="Playlist cover" />
+							<h2>Happy Hits</h2>
+							<p>By Spotify</p>
+						</div>
+
+						<div class="card">
+							<div class="play">
+								<button><img src="playgreen.svg" alt="Play" /></button>
+							</div>
+							<img src="nasha.spotify.jpeg" alt="Playlist cover" />
+							<h2>Happy Hits</h2>
+							<p>By Spotify</p>
+						</div>
+
+						<div class="card">
+							<div class="play">
+								<button><img src="playgreen.svg" alt="Play" /></button>
+							</div>
+							<img src="nasha.spotify.jpeg" alt="Playlist cover" />
+							<h2>Happy Hits</h2>
+							<p>By Spotify</p>
+						</div>
+
+						<div class="card">
+							<div class="play">
+								<button><img src="playgreen.svg" alt="Play" /></button>
+							</div>
+							<img src="nasha.spotify.jpeg" alt="Playlist cover" />
+							<h2>Happy Hits</h2>
+							<p>By Spotify</p>
+						</div>
+
+						<div class="card">
+							<div class="play">
+								<button><img src="playgreen.svg" alt="Play" /></button>
+							</div>
+							<img src="nasha.spotify.jpeg" alt="Playlist cover" />
+							<h2>Happy Hits</h2>
+							<p>By Spotify</p>
+						</div>
+						<div class="card">
+							<div class="play">
+								<button><img src="playgreen.svg" alt="Play" /></button>
+							</div>
+							<img src="nasha.spotify.jpeg" alt="Playlist cover" />
+							<h2>Happy Hits</h2>
+							<p>By Spotify</p>
+						</div>
+						<div class="card">
+							<div class="play">
+								<button><img src="playgreen.svg" alt="Play" /></button>
+							</div>
+							<img src="nasha.spotify.jpeg" alt="Playlist cover" />
+							<h2>Happy Hits</h2>
+							<p>By Spotify</p>
+						</div>
+						<div class="card">
+							<div class="play">
+								<button><img src="playgreen.svg" alt="Play" /></button>
+							</div>
+							<img src="nasha.spotify.jpeg" alt="Playlist cover" />
+							<h2>Happy Hits</h2>
+							<p>By Spotify</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="playbar">
+					<div class="nk">
+						<div class="songinfo"></div>
+						<div class="playbutton invert">
+							<img id="previous" src="previous.svg" alt="Previous" />
+							<img id="play" src="play.svg" alt="Play" />
+							<img id="next" src="next.svg" alt="Next" />
+						</div>
+						<div class="time"></div>
+					</div>
+					<div class="seekbar">
+            <div class="circle"></div>
+          </div>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
